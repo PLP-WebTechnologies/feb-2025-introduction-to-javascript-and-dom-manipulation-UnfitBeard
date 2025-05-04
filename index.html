@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DOM Interaction Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="main-heading">Welcome to My Page</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <p id="dynamic-text">Click the button to change this text and color!</p>
+      <button onclick="changeContent()">Change Text & Style</button>
+    </section>
+
+    <section>
+      <button onclick="toggleElement()">Add/Remove Element</button>
+      <div id="element-container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MyWebsite</p>
+  </footer>
+
+  <!-- Link to external JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
